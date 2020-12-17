@@ -1,29 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cocktail Search</title>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+
+  <style>
+    h3 {
+      /* make the h3 tags look like links */
+      cursor: pointer;
+    }
+    h3:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1>Cocktail Search</h1>
+
+  <input type="text" id="searchText" placeholder="Type cocktail name" value="adam" >
+  <button id="doSearch">Search</button>
 
 
-  <!DOCTYPE html>
-  <html lang="en">
-      <head>
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-          <title>Cocktails database</title>
+  <div id="drinks"></div>
 
-      </head>
-      <body>
-          <div class="container">
-              <h1>&#x2728;Cocktails and more&#x2728;</h1>
-              <div id="searchWrapper">
-                  <input
-                      type="text"
-                      name="searchBar"
-                      id="searchBar"
-                      placeholder="search for a drink"
+  <div id="details"></div>
 
-              </div>
-              <button id="searchBar">Search</button>
-              <div id="response"></div>
-          </div>
-          <script src="js/jquery.js"></script>
-          <script src="js/main.js"></script>
-      </body>
-  </html>
+</body>
+</html>
