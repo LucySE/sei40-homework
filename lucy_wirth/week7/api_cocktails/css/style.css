@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+header {
+  font-family: 'Monoton', cursive;
+  margin: auto 0;
+
+}
+h3 {
+  font-family: verdana
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

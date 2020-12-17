@@ -32,9 +32,9 @@ $(document).ready( function(){
 
         //TODO: check for 'null' drink_path images
         const $cocktailResult = $(`
-          <h3 cocktail_id="${ cocktail.idDrink }">${ i+1 }. ${ cocktail.strDrink } (${ cocktail.strInstructions })</h3>
+          <h3 cocktail_id="${ cocktail.idDrink }">${ i+1 }. ${ cocktail.strDrink } </h3>${ cocktail.strInstructions })</p>
           <p>${ cocktail.strMeasure1 }</p>
-          <https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg/preview${ cocktail.strDrinkThumb }">
+          <img src= "${ cocktail.strDrinkThumb }">
           <hr>
         `);
 
