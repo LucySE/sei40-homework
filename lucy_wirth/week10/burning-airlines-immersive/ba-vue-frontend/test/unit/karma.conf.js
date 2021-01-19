@@ -22,12 +22,12 @@ module.exports = function karmaConfig (config) {
     webpackMiddleware: {
       noInfo: true
     },
-//     coverageReporter: {
-//       dir: './coverage',
-//       reporters: [
-//         { type: 'lcov', subdir: '.' },
-//         { type: 'text-summary' }
-//       ]
-//     }
+    // coverageReporter: {
+    //   dir: './coverage',
+    //   reporters: [
+    //     { type: 'lcov', subdir: '.' },
+    //     { type: 'text-summary' }
+    //   ]
+    // }
   })
 }

@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <h1>Burrning Airlines</h1>
-    <img src="./assets/logo.png">
+    <h1>BUUUURNNNNIIIINNNG AIIIIIRRLLIIIINNNESSS</h1>
     <router-view/>
   </div>
 </template>
